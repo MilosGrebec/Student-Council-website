@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  background-color: #36454F;
+  height: 100%;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  height: 7vh;
+}
+.upis:hover{
+  background-color: rgba(54, 69, 79,0.7);
+}
+.upis{
+  border-color: #36454F;
+  position: absolute;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 40px;
+  margin: 20px;
+  left: 20px;
+  background-color: rgba(54, 69, 79, 0.80);
+}
+.pocetna{
+  border-color: #36454F;
+  position: absolute;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 40px;
+  margin: 20px;
+  left: 400px;
+  background-color: rgba(54, 69, 79, 0.80);
+}
+.dogadjaj{
+  border-color: #36454F;
+  position: absolute;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin: 50px;
+  left: 110px;
+  background-color: rgba(54, 69, 79, 0.80);
+}
+.administracija{
+  border-color: #36454F;
+  position: absolute;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin: 50px;
+  left: 250px;
+  background-color: rgba(54, 69, 79, 0.80);
+}
+.dnevnik{
+  border-color: #36454F;
+  position: absolute;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 40px;
+  margin: 50px;
+  left: 250px;
+  background-color: rgba(54, 69, 79, 0.80);
+}
+.upisi {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+table {
+  border-collapse: collapse;
+  margin: 20px 0; 
+}
+
+th, td {
+  font-size: 20px;
+  width: 350px;
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center; 
+}
+.dnevnik-Stranica{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+  text-align: center;
+}
+.datum{
+  font-size: 20px;
+  text-decoration: solid;
+  margin:10px;
+}
+.dogadjajStranica {
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  height: 100vh;
+}
+
+.formContainer {
+  margin-top: 60px;
+  width: 70%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgba(34, 49, 63, 0.90);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Naziv, .Opis {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ime {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.opis {
+  width: 100%;
+  height: 100px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: grey;
+}
+
+.dugmeD {
+  background-color: gray;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dugmeD:hover {
+  background-color: #0056b3;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  text-align: center;
+}
+.tabelaD{
+  padding: 5px;
+  margin: 10px;
+}
+.tdD {
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+  white-space: normal;  
+  max-width: 100vh;
+}
