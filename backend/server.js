@@ -24,7 +24,7 @@ app.get("/getDan",getDan);
 app.post("/postDog",DogadjajPost);
 app.get("/getDogadjaj",getDogadjaj);
 
-mongoose.connect("mongodb+srv://bercogged:parlament123@cluster0.sasf8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("nicetry")
     .then(()=>{
         app.listen(4000,()=>{
             console.log("listening on port 4000")
